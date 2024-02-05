@@ -1,0 +1,22 @@
+*{ 
+
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,
+body
+{
+    background-color:#FFF;
+   color: #555;
+    font-family: "lato","Arial", sans-serif; /* any sans-serif font is used if lato and arial are not available */
+    font-size: 20px;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}   
+
+section
+{
+    text-align: center;
+}

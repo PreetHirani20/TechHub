@@ -1,0 +1,44 @@
+*{ 
+
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,
+body
+{
+    background-color:#FFF;
+   color: #555;
+    font-family: "lato","Arial", sans-serif; /* any sans-serif font is used if lato and arial are not available */
+    font-size: 20px;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}   
+.passage 
+{
+    text-align: center;
+    border-right: 50px solid Black;
+    border-left: 50px solid Black;
+}
+
+.passage h1
+{
+    color: #555; 
+}
+
+.passage h2
+{
+    color: #555;
+    margin-top: 10px;
+    
+     
+}
+
+.passage li
+{      
+    width: 100%;  
+    margin-bottom: 10px;
+    list-style: none;
+   color:rgb(66, 65, 65);
+}
